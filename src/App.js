@@ -1,5 +1,5 @@
 import './App.css';
-import {Link} from 'react-router-dom';
+import {Link, Outlet} from 'react-router-dom';
 
 
 function App() {
@@ -8,13 +8,13 @@ function App() {
       <h1>PHOENIX Books List</h1>
       <nav
         style={{
-          
-          border:'5px soild blue'
+          border:"5px solid blue"
         }}
         >
           <Link to='/users'>Users</Link> | {'  '}
           <Link to='/about'>About</Link>
         </nav>
+        <Outlet />
     </div>
   );
 }
