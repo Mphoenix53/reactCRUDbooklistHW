@@ -6,9 +6,7 @@ const Users = ()=>{
   return (
     <div>
       <h1>Users Page</h1>
-      {JSON.stringify(data.users)}
-      {JSON.stringify(data.x)}
-      {JSON.stringify(data.demoState)}
+      {JSON.stringify(data)}
       <button onClick={()=>data.setDemoState('changed')}>changed text</button>
       <p>{data.demoState}</p>
     </div>
