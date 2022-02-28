@@ -4,8 +4,8 @@ import {Link, Outlet} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <h1>PHOENIX Books List</h1>
+    <div className="App">
+      <h1>Books List</h1>
       <nav
         style={{
           border:"5px solid blue"
